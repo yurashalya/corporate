@@ -1,8 +1,7 @@
 <?php
+return [
 
-    return[
-
+    'slider_path' => 'slider-cycle',
 
     ];
-
 ?>
