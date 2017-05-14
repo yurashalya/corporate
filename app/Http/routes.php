@@ -28,7 +28,6 @@ Route::resource('portfolios','PortfolioController',[
 
 ]);
 
-
 Route::resource('articles','ArticlesController',[
 
     'parametres'=>[
@@ -37,4 +36,6 @@ Route::resource('articles','ArticlesController',[
 
     ]
 
-]);				
+]);
+Route::get('articles/cat/{cat_alias?}',['uses'=>'ArticleController@index','as'=>'articlesCat']);
+																						
