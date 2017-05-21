@@ -32,7 +32,7 @@
                             <h3>{{ $portfolio->title }}</h3>
                             <p>{{ $portfolio->text }}</p>
                             <div class="clear"></div>
-                               <div class="work-skillsdate">
+                            <div class="work-skillsdate">
                                 <p class="skills"><span class="label">Filter:</span> {{ $portfolio->filter->title }}</p>
                                 <p class="workdate"><span class="label">Customer:</span>{{ $portfolio->customer }}</p>
 
