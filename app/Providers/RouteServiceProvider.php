@@ -26,6 +26,8 @@ class RouteServiceProvider extends ServiceProvider
     {
         //
 
+        $router->pattern('alias','[\w-]+');
+
         parent::boot($router);
     }
 
@@ -59,3 +61,4 @@ class RouteServiceProvider extends ServiceProvider
         });
     }
 }
+ 
